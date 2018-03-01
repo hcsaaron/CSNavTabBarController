@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7801BC6C1BF425AF005375FE /* channel_nav_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7801BC691BF425AF005375FE /* channel_nav_arrow@2x.png */; };
+		7801BC6D1BF425AF005375FE /* navbar_left_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7801BC6A1BF425AF005375FE /* navbar_left_more@2x.png */; };
+		7801BC6E1BF425AF005375FE /* navbar_right_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7801BC6B1BF425AF005375FE /* navbar_right_more@2x.png */; };
+		7801BC761BF42B5B005375FE /* specialcell_nav_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7801BC751BF42B5B005375FE /* specialcell_nav_btn@2x.png */; };
+		7801BC781BF42D82005375FE /* channel_edit_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7801BC771BF42D82005375FE /* channel_edit_delete@2x.png */; };
+		7801BC7A1BF42DC0005375FE /* channel_compact_placeholder_inactive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7801BC791BF42DC0005375FE /* channel_compact_placeholder_inactive@2x.png */; };
+		7801BC801BF4A075005375FE /* CSMoreNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7801BC7F1BF4A075005375FE /* CSMoreNewsViewController.swift */; };
+		7801BC821BF4A07F005375FE /* CSLessNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7801BC811BF4A07F005375FE /* CSLessNewsViewController.swift */; };
+		7801BC841BF4A0BD005375FE /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7801BC831BF4A0BD005375FE /* ThirdViewController.swift */; };
+		7801BC891BF4A10E005375FE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7801BC871BF4A10E005375FE /* SecondViewController.swift */; };
+		7801BC8A1BF4A10E005375FE /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7801BC881BF4A10E005375FE /* SecondViewController.xib */; };
+		7801BC8D1BF4A91F005375FE /* newsPicture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7801BC8C1BF4A91F005375FE /* newsPicture.jpg */; };
+		7801BC8F1BF4B073005375FE /* CSPopNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7801BC8E1BF4B073005375FE /* CSPopNewsViewController.swift */; };
+		78248CEF1BF5B7BC00728D54 /* night_navbar_left_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78248CED1BF5B7BC00728D54 /* night_navbar_left_more@2x.png */; };
+		78248CF01BF5B7BC00728D54 /* night_navbar_right_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78248CEE1BF5B7BC00728D54 /* night_navbar_right_more@2x.png */; };
+		78248CF21BF5B83B00728D54 /* night_channel_nav_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78248CF11BF5B83B00728D54 /* night_channel_nav_arrow@2x.png */; };
+		78FDB0641BF2CB010003155A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FDB0631BF2CB010003155A /* AppDelegate.swift */; };
+		78FDB0691BF2CB020003155A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78FDB0671BF2CB020003155A /* Main.storyboard */; };
+		78FDB06B1BF2CB020003155A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78FDB06A1BF2CB020003155A /* Assets.xcassets */; };
+		78FDB06E1BF2CB020003155A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78FDB06C1BF2CB020003155A /* LaunchScreen.storyboard */; };
+		78FDB0791BF2CB020003155A /* CSNavTabBarController_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FDB0781BF2CB020003155A /* CSNavTabBarController_DemoTests.swift */; };
+		78FDB0841BF2CB020003155A /* CSNavTabBarController_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FDB0831BF2CB020003155A /* CSNavTabBarController_DemoUITests.swift */; };
+		78FDB0921BF2D2E70003155A /* CSNavTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FDB0911BF2D2E70003155A /* CSNavTabBarController.swift */; };
+		78FDB09C1BF2E90D0003155A /* CSNavTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FDB09B1BF2E90D0003155A /* CSNavTabBar.swift */; };
+		78FDB0A21BF310BF0003155A /* CSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FDB0A11BF310BF0003155A /* CSExtension.swift */; };
+		78FDB0AC1BF32C0A0003155A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FDB0AB1BF32C0A0003155A /* FirstViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78FDB0751BF2CB020003155A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78FDB0581BF2CB010003155A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78FDB05F1BF2CB010003155A;
+			remoteInfo = "CSNavTabBarController-Demo";
+		};
+		78FDB0801BF2CB020003155A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78FDB0581BF2CB010003155A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78FDB05F1BF2CB010003155A;
+			remoteInfo = "CSNavTabBarController-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7801BC691BF425AF005375FE /* channel_nav_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "channel_nav_arrow@2x.png"; sourceTree = "<group>"; };
+		7801BC6A1BF425AF005375FE /* navbar_left_more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar_left_more@2x.png"; sourceTree = "<group>"; };
+		7801BC6B1BF425AF005375FE /* navbar_right_more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar_right_more@2x.png"; sourceTree = "<group>"; };
+		7801BC751BF42B5B005375FE /* specialcell_nav_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "specialcell_nav_btn@2x.png"; sourceTree = "<group>"; };
+		7801BC771BF42D82005375FE /* channel_edit_delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "channel_edit_delete@2x.png"; sourceTree = "<group>"; };
+		7801BC791BF42DC0005375FE /* channel_compact_placeholder_inactive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "channel_compact_placeholder_inactive@2x.png"; sourceTree = "<group>"; };
+		7801BC7F1BF4A075005375FE /* CSMoreNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMoreNewsViewController.swift; sourceTree = "<group>"; };
+		7801BC811BF4A07F005375FE /* CSLessNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSLessNewsViewController.swift; sourceTree = "<group>"; };
+		7801BC831BF4A0BD005375FE /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		7801BC871BF4A10E005375FE /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7801BC881BF4A10E005375FE /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		7801BC8C1BF4A91F005375FE /* newsPicture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newsPicture.jpg; sourceTree = "<group>"; };
+		7801BC8E1BF4B073005375FE /* CSPopNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSPopNewsViewController.swift; sourceTree = "<group>"; };
+		78248CED1BF5B7BC00728D54 /* night_navbar_left_more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "night_navbar_left_more@2x.png"; sourceTree = "<group>"; };
+		78248CEE1BF5B7BC00728D54 /* night_navbar_right_more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "night_navbar_right_more@2x.png"; sourceTree = "<group>"; };
+		78248CF11BF5B83B00728D54 /* night_channel_nav_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "night_channel_nav_arrow@2x.png"; sourceTree = "<group>"; };
+		78FDB0601BF2CB010003155A /* CSNavTabBarController-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CSNavTabBarController-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78FDB0631BF2CB010003155A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		78FDB0681BF2CB020003155A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78FDB06A1BF2CB020003155A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78FDB06D1BF2CB020003155A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78FDB06F1BF2CB020003155A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78FDB0741BF2CB020003155A /* CSNavTabBarController-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CSNavTabBarController-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78FDB0781BF2CB020003155A /* CSNavTabBarController_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSNavTabBarController_DemoTests.swift; sourceTree = "<group>"; };
+		78FDB07A1BF2CB020003155A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78FDB07F1BF2CB020003155A /* CSNavTabBarController-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CSNavTabBarController-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78FDB0831BF2CB020003155A /* CSNavTabBarController_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSNavTabBarController_DemoUITests.swift; sourceTree = "<group>"; };
+		78FDB0851BF2CB020003155A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78FDB0911BF2D2E70003155A /* CSNavTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSNavTabBarController.swift; sourceTree = "<group>"; };
+		78FDB09B1BF2E90D0003155A /* CSNavTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSNavTabBar.swift; sourceTree = "<group>"; };
+		78FDB0A11BF310BF0003155A /* CSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSExtension.swift; sourceTree = "<group>"; };
+		78FDB0AB1BF32C0A0003155A /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78FDB05D1BF2CB010003155A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78FDB0711BF2CB020003155A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78FDB07C1BF2CB020003155A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7801BC681BF425A6005375FE /* images */ = {
+			isa = PBXGroup;
+			children = (
+				78248CED1BF5B7BC00728D54 /* night_navbar_left_more@2x.png */,
+				78248CEE1BF5B7BC00728D54 /* night_navbar_right_more@2x.png */,
+				7801BC691BF425AF005375FE /* channel_nav_arrow@2x.png */,
+				78248CF11BF5B83B00728D54 /* night_channel_nav_arrow@2x.png */,
+				7801BC6A1BF425AF005375FE /* navbar_left_more@2x.png */,
+				7801BC6B1BF425AF005375FE /* navbar_right_more@2x.png */,
+				7801BC751BF42B5B005375FE /* specialcell_nav_btn@2x.png */,
+				7801BC791BF42DC0005375FE /* channel_compact_placeholder_inactive@2x.png */,
+				7801BC771BF42D82005375FE /* channel_edit_delete@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		78FDB0571BF2CB010003155A = {
+			isa = PBXGroup;
+			children = (
+				78FDB0621BF2CB010003155A /* CSNavTabBarController-Demo */,
+				78FDB0771BF2CB020003155A /* CSNavTabBarController-DemoTests */,
+				78FDB0821BF2CB020003155A /* CSNavTabBarController-DemoUITests */,
+				78FDB0611BF2CB010003155A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78FDB0611BF2CB010003155A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78FDB0601BF2CB010003155A /* CSNavTabBarController-Demo.app */,
+				78FDB0741BF2CB020003155A /* CSNavTabBarController-DemoTests.xctest */,
+				78FDB07F1BF2CB020003155A /* CSNavTabBarController-DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78FDB0621BF2CB010003155A /* CSNavTabBarController-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				7801BC8C1BF4A91F005375FE /* newsPicture.jpg */,
+				78FDB0631BF2CB010003155A /* AppDelegate.swift */,
+				7801BC7F1BF4A075005375FE /* CSMoreNewsViewController.swift */,
+				7801BC811BF4A07F005375FE /* CSLessNewsViewController.swift */,
+				7801BC8E1BF4B073005375FE /* CSPopNewsViewController.swift */,
+				78FDB0AB1BF32C0A0003155A /* FirstViewController.swift */,
+				7801BC871BF4A10E005375FE /* SecondViewController.swift */,
+				7801BC881BF4A10E005375FE /* SecondViewController.xib */,
+				7801BC831BF4A0BD005375FE /* ThirdViewController.swift */,
+				78FDB0A81BF319C60003155A /* CSNavTabBarController */,
+				78FDB0671BF2CB020003155A /* Main.storyboard */,
+				78FDB06A1BF2CB020003155A /* Assets.xcassets */,
+				78FDB06C1BF2CB020003155A /* LaunchScreen.storyboard */,
+				78FDB06F1BF2CB020003155A /* Info.plist */,
+			);
+			path = "CSNavTabBarController-Demo";
+			sourceTree = "<group>";
+		};
+		78FDB0771BF2CB020003155A /* CSNavTabBarController-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				78FDB0781BF2CB020003155A /* CSNavTabBarController_DemoTests.swift */,
+				78FDB07A1BF2CB020003155A /* Info.plist */,
+			);
+			path = "CSNavTabBarController-DemoTests";
+			sourceTree = "<group>";
+		};
+		78FDB0821BF2CB020003155A /* CSNavTabBarController-DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				78FDB0831BF2CB020003155A /* CSNavTabBarController_DemoUITests.swift */,
+				78FDB0851BF2CB020003155A /* Info.plist */,
+			);
+			path = "CSNavTabBarController-DemoUITests";
+			sourceTree = "<group>";
+		};
+		78FDB0A81BF319C60003155A /* CSNavTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				7801BC681BF425A6005375FE /* images */,
+				78FDB09B1BF2E90D0003155A /* CSNavTabBar.swift */,
+				78FDB0911BF2D2E70003155A /* CSNavTabBarController.swift */,
+				78FDB0A11BF310BF0003155A /* CSExtension.swift */,
+			);
+			name = CSNavTabBarController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78FDB05F1BF2CB010003155A /* CSNavTabBarController-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78FDB0881BF2CB020003155A /* Build configuration list for PBXNativeTarget "CSNavTabBarController-Demo" */;
+			buildPhases = (
+				78FDB05C1BF2CB010003155A /* Sources */,
+				78FDB05D1BF2CB010003155A /* Frameworks */,
+				78FDB05E1BF2CB010003155A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CSNavTabBarController-Demo";
+			productName = "CSNavTabBarController-Demo";
+			productReference = 78FDB0601BF2CB010003155A /* CSNavTabBarController-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78FDB0731BF2CB020003155A /* CSNavTabBarController-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78FDB08B1BF2CB020003155A /* Build configuration list for PBXNativeTarget "CSNavTabBarController-DemoTests" */;
+			buildPhases = (
+				78FDB0701BF2CB020003155A /* Sources */,
+				78FDB0711BF2CB020003155A /* Frameworks */,
+				78FDB0721BF2CB020003155A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78FDB0761BF2CB020003155A /* PBXTargetDependency */,
+			);
+			name = "CSNavTabBarController-DemoTests";
+			productName = "CSNavTabBarController-DemoTests";
+			productReference = 78FDB0741BF2CB020003155A /* CSNavTabBarController-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78FDB07E1BF2CB020003155A /* CSNavTabBarController-DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78FDB08E1BF2CB020003155A /* Build configuration list for PBXNativeTarget "CSNavTabBarController-DemoUITests" */;
+			buildPhases = (
+				78FDB07B1BF2CB020003155A /* Sources */,
+				78FDB07C1BF2CB020003155A /* Frameworks */,
+				78FDB07D1BF2CB020003155A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78FDB0811BF2CB020003155A /* PBXTargetDependency */,
+			);
+			name = "CSNavTabBarController-DemoUITests";
+			productName = "CSNavTabBarController-DemoUITests";
+			productReference = 78FDB07F1BF2CB020003155A /* CSNavTabBarController-DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78FDB0581BF2CB010003155A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = CS;
+				TargetAttributes = {
+					78FDB05F1BF2CB010003155A = {
+						CreatedOnToolsVersion = 7.1;
+						LastSwiftMigration = 0800;
+					};
+					78FDB0731BF2CB020003155A = {
+						CreatedOnToolsVersion = 7.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 78FDB05F1BF2CB010003155A;
+					};
+					78FDB07E1BF2CB020003155A = {
+						CreatedOnToolsVersion = 7.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 78FDB05F1BF2CB010003155A;
+					};
+				};
+			};
+			buildConfigurationList = 78FDB05B1BF2CB010003155A /* Build configuration list for PBXProject "CSNavTabBarController-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78FDB0571BF2CB010003155A;
+			productRefGroup = 78FDB0611BF2CB010003155A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78FDB05F1BF2CB010003155A /* CSNavTabBarController-Demo */,
+				78FDB0731BF2CB020003155A /* CSNavTabBarController-DemoTests */,
+				78FDB07E1BF2CB020003155A /* CSNavTabBarController-DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78FDB05E1BF2CB010003155A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7801BC6D1BF425AF005375FE /* navbar_left_more@2x.png in Resources */,
+				7801BC6C1BF425AF005375FE /* channel_nav_arrow@2x.png in Resources */,
+				7801BC6E1BF425AF005375FE /* navbar_right_more@2x.png in Resources */,
+				7801BC761BF42B5B005375FE /* specialcell_nav_btn@2x.png in Resources */,
+				7801BC8A1BF4A10E005375FE /* SecondViewController.xib in Resources */,
+				78248CEF1BF5B7BC00728D54 /* night_navbar_left_more@2x.png in Resources */,
+				78FDB06E1BF2CB020003155A /* LaunchScreen.storyboard in Resources */,
+				7801BC781BF42D82005375FE /* channel_edit_delete@2x.png in Resources */,
+				78FDB06B1BF2CB020003155A /* Assets.xcassets in Resources */,
+				7801BC8D1BF4A91F005375FE /* newsPicture.jpg in Resources */,
+				78248CF01BF5B7BC00728D54 /* night_navbar_right_more@2x.png in Resources */,
+				78248CF21BF5B83B00728D54 /* night_channel_nav_arrow@2x.png in Resources */,
+				78FDB0691BF2CB020003155A /* Main.storyboard in Resources */,
+				7801BC7A1BF42DC0005375FE /* channel_compact_placeholder_inactive@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78FDB0721BF2CB020003155A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78FDB07D1BF2CB020003155A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78FDB05C1BF2CB010003155A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78FDB0921BF2D2E70003155A /* CSNavTabBarController.swift in Sources */,
+				7801BC841BF4A0BD005375FE /* ThirdViewController.swift in Sources */,
+				78FDB0641BF2CB010003155A /* AppDelegate.swift in Sources */,
+				7801BC891BF4A10E005375FE /* SecondViewController.swift in Sources */,
+				78FDB09C1BF2E90D0003155A /* CSNavTabBar.swift in Sources */,
+				7801BC821BF4A07F005375FE /* CSLessNewsViewController.swift in Sources */,
+				78FDB0AC1BF32C0A0003155A /* FirstViewController.swift in Sources */,
+				7801BC8F1BF4B073005375FE /* CSPopNewsViewController.swift in Sources */,
+				7801BC801BF4A075005375FE /* CSMoreNewsViewController.swift in Sources */,
+				78FDB0A21BF310BF0003155A /* CSExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78FDB0701BF2CB020003155A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78FDB0791BF2CB020003155A /* CSNavTabBarController_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78FDB07B1BF2CB020003155A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78FDB0841BF2CB020003155A /* CSNavTabBarController_DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78FDB0761BF2CB020003155A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78FDB05F1BF2CB010003155A /* CSNavTabBarController-Demo */;
+			targetProxy = 78FDB0751BF2CB020003155A /* PBXContainerItemProxy */;
+		};
+		78FDB0811BF2CB020003155A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78FDB05F1BF2CB010003155A /* CSNavTabBarController-Demo */;
+			targetProxy = 78FDB0801BF2CB020003155A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78FDB0671BF2CB020003155A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78FDB0681BF2CB020003155A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78FDB06C1BF2CB020003155A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78FDB06D1BF2CB020003155A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78FDB0861BF2CB020003155A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78FDB0871BF2CB020003155A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78FDB0891BF2CB020003155A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CSNavTabBarController-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huangchusheng.CSNavTabBarController-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		78FDB08A1BF2CB020003155A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CSNavTabBarController-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huangchusheng.CSNavTabBarController-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		78FDB08C1BF2CB020003155A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CSNavTabBarController-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huangchusheng.CSNavTabBarController-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSNavTabBarController-Demo.app/CSNavTabBarController-Demo";
+			};
+			name = Debug;
+		};
+		78FDB08D1BF2CB020003155A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CSNavTabBarController-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huangchusheng.CSNavTabBarController-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSNavTabBarController-Demo.app/CSNavTabBarController-Demo";
+			};
+			name = Release;
+		};
+		78FDB08F1BF2CB020003155A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CSNavTabBarController-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huangchusheng.CSNavTabBarController-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "CSNavTabBarController-Demo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		78FDB0901BF2CB020003155A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CSNavTabBarController-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huangchusheng.CSNavTabBarController-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "CSNavTabBarController-Demo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78FDB05B1BF2CB010003155A /* Build configuration list for PBXProject "CSNavTabBarController-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78FDB0861BF2CB020003155A /* Debug */,
+				78FDB0871BF2CB020003155A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78FDB0881BF2CB020003155A /* Build configuration list for PBXNativeTarget "CSNavTabBarController-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78FDB0891BF2CB020003155A /* Debug */,
+				78FDB08A1BF2CB020003155A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78FDB08B1BF2CB020003155A /* Build configuration list for PBXNativeTarget "CSNavTabBarController-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78FDB08C1BF2CB020003155A /* Debug */,
+				78FDB08D1BF2CB020003155A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78FDB08E1BF2CB020003155A /* Build configuration list for PBXNativeTarget "CSNavTabBarController-DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78FDB08F1BF2CB020003155A /* Debug */,
+				78FDB0901BF2CB020003155A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78FDB0581BF2CB010003155A /* Project object */;
+}

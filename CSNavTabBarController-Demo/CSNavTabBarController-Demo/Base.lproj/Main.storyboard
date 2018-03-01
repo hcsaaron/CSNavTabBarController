@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="8TF-rp-aGX">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--More News View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="CSMoreNewsViewController" customModule="CSNavTabBarController_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="AcL-K0-oo6">
+                        <barButtonItem key="rightBarButtonItem" title="夜间模式" id="wr2-jh-e9r">
+                            <connections>
+                                <segue destination="CAf-oG-kcv" kind="push" id="oHe-dW-cgR"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1689" y="63"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="sb0-YB-jHp">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hTH-rW-mIx" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Xft-rc-pH6"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="d6z-as-PqF">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.87058823529411766" green="0.25490196078431371" blue="0.27450980392156865" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="dtD-NE-KqD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gm9-yp-iwJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1012" y="63"/>
+        </scene>
+        <!--Less News View Controller-->
+        <scene sceneID="reD-QE-dyh">
+            <objects>
+                <viewController id="Hfd-gr-NSg" customClass="CSLessNewsViewController" customModule="CSNavTabBarController_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rYm-E3-mZg"/>
+                        <viewControllerLayoutGuide type="bottom" id="fdF-3o-tqz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6nT-EC-pVi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="WMT-Ru-NJl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bt0-4B-Y51" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1689" y="778"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="4DO-KK-Tev">
+            <objects>
+                <tabBarController id="8TF-rp-aGX" sceneMemberID="viewController">
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="YNz-6H-as8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="hTH-rW-mIx" kind="relationship" relationship="viewControllers" id="3pX-RQ-zBY"/>
+                        <segue destination="OSV-Cw-Jyh" kind="relationship" relationship="viewControllers" id="glu-2Q-aEw"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PUD-ek-idR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="230" y="421"/>
+        </scene>
+        <!--呵呵-->
+        <scene sceneID="i8d-fF-xbb">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OSV-Cw-Jyh" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="呵呵" image="channel_compact_placeholder_inactive.png" id="xy1-Sh-cp4"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="gDR-Zz-1Mh">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.17513304060000001" green="0.48214826039999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Hfd-gr-NSg" kind="relationship" relationship="rootViewController" id="8dW-Kp-wXV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SsT-6B-0e8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1012" y="778"/>
+        </scene>
+        <!--Pop News View Controller-->
+        <scene sceneID="9Y0-wj-Ut2">
+            <objects>
+                <viewController hidesBottomBarWhenPushed="YES" id="CAf-oG-kcv" customClass="CSPopNewsViewController" customModule="CSNavTabBarController_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Lzc-gN-1oB"/>
+                        <viewControllerLayoutGuide type="bottom" id="TOy-Fg-grA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MdK-a6-uqO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Xph-b1-YUe"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="teU-iB-ZdX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2409" y="63"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="channel_compact_placeholder_inactive.png" width="70" height="30"/>
+    </resources>
+</document>
